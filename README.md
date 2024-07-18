@@ -19,10 +19,10 @@ Este projeto vai explorar um ecossistema dinâmico composto por quatro países i
 Agora irei ensinar um passo a passo para se criar um mainframe cobol.
 
 1 - Baixar tk4.
-[tk4](tk4-_v1.00_current.zip)
+[[tk4](tk4-_v1.00_current.zip)](https://drive.google.com/file/d/17hvKRkBXBsumZW356iOT0QjspcofPTUF/view)
 
 2 - Baixar TN3270
-[TN3270](zoc8086_x64.exe)
+[TN3270]([zoc8086_x64.exe](https://www.emtec.com/common/downloadfile.html?what=ZOC8%20(Windows,%2064%20bit)&link=zoc/zoc8034_x64.exe&ext=html&actual=1))
 
 3- Crie uma pasta no diretório C com o nome TK4
 
