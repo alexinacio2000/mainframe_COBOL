@@ -18,3 +18,45 @@ Este projeto vai explorar um ecossistema dinâmico composto por quatro países i
 
 Agora irei ensinar um passo a passo para se criar um mainframe cobol.
 
+1 - Baixar tk4.
+[tk4](tk4-_v1.00_current.zip)
+
+2 - Baixar TN3270
+[TN3270](zoc8086_x64.exe)
+
+3- Crie uma pasta no diretório C com o nome TK4
+
+4 - Descompacte o arquivo tk4 na pasta criada no diretório
+
+## Configuração no ambiente windows
+    Abra o CMD na pasta do diretório após descmpactar o arquivo ZIP.
+    Digite e execute nessa ordem.
+    -> cd unattended
+    ->cd set_console_mode.bat
+---
+    Agora volte para o diretório é va para a pasta conf e faça as seguintes alterações
+    Localize o parâmetro NUMCPU e altere o valor do parâmetro de "1" para "2" - Resultado final: NUMCPU ${NUMCPU:=2}
+    Localize o parâmetro MAXCPU e altere o valor do parâmetro de "1" para "2" - Resultado final: MAXCPU ${MAXCPU:=2}
+    Localize o parâmetro CNSLPORT e veja a porta TCP/IP da comunicação CNSLPORT ${CNSLPORT:=3270}
+    Localize o parâmetro HTTPPORT e veja a porta TCP/IP da comunicação HTTP PORT ${HTTPPORT:=8038}
+
+---
+# Inicializando a conexão
+Entre no diretório C/tk4 e abra o cmd e execute o script mvs.bat.
+obs: enquanto estiver usando o sistema, não feche esse cmd.
+
+# Usando o TN3270 e configurando acesso
+ 1. Veja seu endereço ip
+ 2. Crie uma conexão no TN3270 para o seu IP e a porta 3270 e conecte;
+
+# Agora faça login quando acessar o terminal
+Segundo a documentação oficial essas são os logins e senhas de acesso.
+
+HERC01 é um usuário totalmente autorizado com acesso completo às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.
+HERC02 é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.
+HERC03 é um usuário comum. A senha de login é PASS4U.
+HERC04 é um usuário comum. A senha de login é PASS4U.
+IBMUSER é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é IBMPASS. Esta conta é destinada apenas para fins de recuperação.
+
+#Menção
+Nessa trilha de estudo aprendi esse conteúdo assistindo as aulas do brilhante professor @ANDRE COSTA do canal Aprenda Cobol [![Aprenda Cobol](https://media.licdn.com/dms/image/C4D03AQGA_s_FVM8u4Q/profile-displayphoto-shrink_200_200/0/1610480798405?e=1726704000&v=beta&t=woBsjyFLvEncZyIuAE13mhjV2F_mt1ZhPz7Wu_IWJkI)]([URL-do-Link](https://www.youtube.com/@AprendaCOBOL))
