@@ -53,10 +53,10 @@ obs: enquanto estiver usando o sistema, não feche esse cmd.
 # Agora faça login quando acessar o terminal
 Segundo a documentação oficial essas são os logins e senhas de acesso.
 
-HERC01 é um usuário totalmente autorizado com acesso completo às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.
-HERC02 é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.
-HERC03 é um usuário comum. A senha de login é PASS4U.
-HERC04 é um usuário comum. A senha de login é PASS4U.
+HERC01 é um usuário totalmente autorizado com acesso completo às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.<br>
+HERC02 é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é CUL8TR.<br>
+HERC03 é um usuário comum. A senha de login é PASS4U.<br>
+HERC04 é um usuário comum. A senha de login é PASS4U.<br>
 IBMUSER é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é IBMPASS. Esta conta é destinada apenas para fins de recuperação.
 
 # Menção
