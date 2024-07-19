@@ -60,4 +60,4 @@ HERC04 é um usuário comum. A senha de login é PASS4U.<br>
 IBMUSER é um usuário totalmente autorizado sem acesso às tabelas de usuários e perfis RAKF. A senha de login é IBMPASS. Esta conta é destinada apenas para fins de recuperação.
 
 # Menção
-Nessa trilha de estudo aprendi esse conteúdo assistindo as aulas do brilhante professor @ANDRE COSTA do canal Aprenda Cobol [![Aprenda Cobol](https://media.licdn.com/dms/image/C4D03AQGA_s_FVM8u4Q/profile-displayphoto-shrink_200_200/0/1610480798405?e=1726704000&v=beta&t=woBsjyFLvEncZyIuAE13mhjV2F_mt1ZhPz7Wu_IWJkI)]([URL-do-Link](https://www.youtube.com/@AprendaCOBOL))
+Nessa trilha de estudo aprendi esse conteúdo assistindo as aulas do brilhante professor @ANDRE COSTA do canal Aprenda Cobol [![Aprenda Cobol](https://media.licdn.com/dms/image/C4D03AQGA_s_FVM8u4Q/profile-displayphoto-shrink_200_200/0/1610480798405?e=1726704000&v=beta&t=woBsjyFLvEncZyIuAE13mhjV2F_mt1ZhPz7Wu_IWJkI)]([[URL-do-Link](https://www.youtube.com/@AprendaCOBOL)](https://www.youtube.com/@AprendaCOBOL))
